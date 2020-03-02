@@ -1,0 +1,16 @@
+.specific-list {
+    list-style: none;
+    margin: 1rem auto;
+    padding: 0 1rem;
+    width: 40%;
+    max-width: 40rem;
+  }
+  
+  @media (max-width: 768px) {
+    .specific-list {
+      list-style: none;
+      margin: 1rem auto;
+      padding: 0;
+      width: 350px;
+    }
+  }
